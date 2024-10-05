@@ -1,2 +1,27 @@
 # ExtractCert
-ExtractCert is a Python tool for retrieving and analyzing SSL/TLS certificates from URLs or certificate files. It provides detailed information about the certificates, including public keys and their fingerprints for security analysis.
+
+**ExtractCert** is a Python tool for extracting and analyzing SSL/TLS certificates from URLs or certificate files in PEM or DER formats. This tool provides detailed insights into the retrieved certificates, including public keys and their corresponding fingerprints (SHA-256 and SHA-1).
+
+## Features
+
+- Retrieve SSL/TLS certificates from a specified URL.
+- Load certificates from PEM or DER formatted files.
+- Display the full certificate in PEM format.
+- Extract and display public keys.
+- Generate and show SHA-256 and SHA-1 fingerprints for both the certificate and public key.
+
+## Installation
+
+To run **ExtractCert**, you need to have Python 3 installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+
+### Prerequisites
+
+Make sure you have the following packages installed:
+
+- `cryptography`
+- `pyOpenSSL`
+
+You can install the required packages using pip:
+
+```bash
+pip install -r requirements.txt
