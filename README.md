@@ -15,9 +15,9 @@ Using a Certificate File as Input
 
 You can also load a certificate from a file in either PEM or DER format using the -f flag.
 
-bash
-
+```bash
 python3 test.py -f <cert_file>
+```
 
 ## Features
 
